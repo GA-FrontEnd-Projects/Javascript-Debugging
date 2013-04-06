@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="css/style.css"></link>
+
+		<!-- Get the latest version of jQuery hosted by google -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+		<script type="text/javascript" src="js/script.js"></script>
+		<!-- 
+		 Normally, for the purpose of loading pages quickly,
+		 scripts would go in the body, just before the closing </body> tag.
+		 For simplicity's sake, I've put them in the <head>.
+	
+		 Notice, also, the path for the script.js file - normally I would
+		 encourage you to set the file path as "/script.js", which means "script.js
+		 is located in the root directory of the site" but I left the
+		 leading slash off so you could run this in a non-server environment (ask me
+		 if you want more details about that).
+
+		 The current file path just means "script.js is located in the same
+		 directory as the file that's including it". Since all the html files
+		 in this project are located in the same folder, this is fine, but
+		 it's important to understand the distinction.
+		  -->
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="content">
+				<div id="panels" class="clearfix">
+					<div class="panel one"></div>
+					<div class="panel two"></div>
+					<div class="panel three"></div>
+				</div> <!-- end #content -->
+				<div id="text-area">
+					<h1>Welcome to GA Study Groups</h1>
+					<h2>hosted by Aaron Smyth</h2>
+				</div>
+				<div id="equalizer" class="clearfix">
+					<div class="bar one"></div>
+					<div class="bar two"></div>
+					<div class="bar three"></div>
+					<div class="bar four"></div>
+					<div class="bar five"></div>
+				</div>
+				<div id="timer-container">This animation has been running for <span class="time minutes">0</span> minutes <span class="time seconds">0</span> seconds</div>
+				<audio controls>
+					<source src="http://media.beatsinspace.net/audio/bis-06-26-12-part2.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</div> <!-- end #wrapper -->
+	</body>
+</html>

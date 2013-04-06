@@ -1,0 +1,36 @@
+Debugging Javascript
+
+Difficulty Level: Medium
+
+Technologies/skills used: Javascript, callbacks, animation
+
+
+
+Problem Description:
+
+This is a fully-working application that has been strategically broken to provide an exercise in debugging Javascript. Debugging can be one of the most frustrating exercises in coding (and upon fixing a particularly difficult bug, gratifying), but it is a vital skill.
+
+Some vocabulary you'll need to know:
+
+Error types:
+
+	Syntax error - an error in the construction of your code. This can include missing parentheses, braces, or brackets, or can include stray or missing characters. You'll see "Unexpected Identifier" a fair number of times, which is an indication of a syntax error
+
+	Runtime error - an error that arises from unexpected behavior within the code, such as trying to access an attribute or method in an undefined object, attempting to access an array index or object attribute that does not exist, or calling a function that does not exist.
+
+	Logic error - behavior that causes your script to run differently than you intended. Logic errors are not detectable by the browser will not spawn error messages. Common causes of logic errors include incorrect calculation logic, accidental assignment (=) where an equivalency test (==) is intended, and confusion between greater-than and less-than (and their -or-equal-to counterparts) in loops and calculations.
+
+There are 20 errors in the Javascript, and they are a mix of syntax, runtime, and logic errors. The completed application will show you a series of animations without errors in the console.
+
+Chrome and Firefox (with Firebug) have great Javascript consoles, so use these browsers if you can. Usually there is a "developer" section in your browser's menu that will let you open the console.
+
+Use console.log() to see the value of variables at given points in the code or to see whether the script reaches a block of code at all. Advanced users can use breakpoints in the debugging console in Chrome to step through the code execution, as well.
+
+
+	
+	Helpful examples and articles:
+
+	* jQuery general documentation: http://api.jquery.com/
+	* Selectors: http://api.jquery.com/category/selectors/
+	* Animation: http://api.jquery.com/category/effects/
+	
